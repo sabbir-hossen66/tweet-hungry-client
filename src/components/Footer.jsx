@@ -22,7 +22,7 @@ const Footer = () => {
                   aria-label={social.label}
                   className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-blue-600 hover:text-white transition-all duration-300"
                 >
-                  <social.icon className="w-4 h-4" />
+                  <social.icon className="w-4 h-4 text-[#000000]" />
                 </a>
               ))}
             </div>
@@ -30,7 +30,7 @@ const Footer = () => {
 
           {/* Our Services */}
           <div className="lg:col-span-1">
-            <h4 className="text-[#1a1a1a] text-base font-[600] mb-4">
+            <h4 className="text-[#1a1a1a] text-[14px] md:text-[14px] lg:text-[14px] font-[600] mb-4">
               Our Services
             </h4>
             <ul className="space-y-2">
@@ -38,7 +38,7 @@ const Footer = () => {
                 <li key={index}>
                   <a
                     href={link.href}
-                    className="text-[#4a4a4a] text-sm hover:text-blue-600 transition-colors duration-200"
+                    className="text-[#4a4a4a] text-[14px] md:text-[14px] lg:text-[14px] hover:text-blue-600 transition-colors duration-200"
                   >
                     {link.name}
                   </a>
@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Useful Links */}
           <div className="lg:col-span-1">
-            <h4 className="text-[#1a1a1a] text-base font-[600] mb-4">
+            <h4 className="text-[#1a1a1a] text-[14px] md:text-[14px] lg:text-[14px] font-[600] mb-4">
               Useful Links
             </h4>
             <ul className="space-y-2">
@@ -68,7 +68,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="lg:col-span-1">
-            <h4 className="text-[#1a1a1a] text-base font-[600] mb-4">
+            <h4 className="text-[#1a1a1a] text-[14px] md:text-[14px] lg:text-[14px] font-[600] mb-4">
               Customer Services
             </h4>
             <ul className="space-y-2">
@@ -87,14 +87,16 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="lg:col-span-1">
-            <h4 className="text-[#1a1a1a] text-base font-[600] mb-4">
+            <h4 className="text-[#1a1a1a] text-[14px] md:text-[14px] lg:text-[14px] font-[600] mb-4">
               Contact Info
             </h4>
             <ul className="space-y-3">
               {contactInfo.map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
-                  <item.icon className="w-4 h-4 text-[#4a4a4a] mt-0.5 flex-shrink-0" />
-                  <span className="text-[#4a4a4a] text-sm">{item.text}</span>
+                  <item.icon className="w-[13.9px] h-[16] lg:w-[24px] lg:h-[24px] md:w-[13.9px] md:h-[16] text-[#000000] mt-0.5 flex-shrink-0" />
+                  <span className="text-[#2A2F32] text-[14px] md:text-[14px] lg:text-[14px] font-semibold">
+                    {item.text}
+                  </span>
                 </li>
               ))}
             </ul>

@@ -60,7 +60,7 @@ export const faqData = [
   ];
 
   export const contactInfo = [
-    { icon: MapPin, text: "1 East Street, London, SE11 9SQ" },
+    { icon: MapPin, text: "1 East Street, London 11" },
     { icon: Mail, text: "enquiries@londonplus.com" },
     { icon: Phone, text: "020 4327 4474" },
   ];
