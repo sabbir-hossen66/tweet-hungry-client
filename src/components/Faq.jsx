@@ -46,7 +46,7 @@ export default function FAQ() {
       <div className="container mx-auto ">
         <div className="  bg-white rounded-lg shadow-lg p-[10px] md:p-[40px] lg:p-[120px]">
           <div className="text-center mb-12">
-            <h1 className="font-class text-[24px] md:text-[32px] lg:text-[48px] text-[#1B1743] mb-4">
+            <h1 className="font-class text-[24px] md:text-[32px] lg:text-[48px] text-[#1B1743] mb-4 gap-[16px] md:gap-[4px] lg:gap-[16px]">
               Frequently asked questions
             </h1>
           </div>
