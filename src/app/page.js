@@ -1,11 +1,10 @@
-import Image from "next/image";
+import FAQ from "@/components/Faq";
+
 
 export default function Home() {
   return (
-    <div>
-      <h2>hello
-        
-      </h2>
-    </div>
+  <div className="inter-font">
+    <FAQ/>
+  </div>
   );
 }
