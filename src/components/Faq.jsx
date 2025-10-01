@@ -12,7 +12,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className=" bg-gray-300 mb-10">
       <Head>
         <title>Frequently Asked Questions</title>
         <meta

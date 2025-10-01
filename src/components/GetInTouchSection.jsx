@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const GetInTouchSection = () => {
   return (
-    <section className="w-full bg-white py-8 px-4 sm:py-12 md:py-16 lg:py-20">
+    <section className="w-full bg-white py-8 px-4 sm:py-12 md:py-16 lg:py-20 mb-10">
       <div className="max-w-7xl mx-auto">
         <div className="bg-[#0058FF] rounded-2xl sm:rounded-3xl p-8 sm:p-12 md:p-16 lg:p-20 text-center shadow-xl">
           <div className="max-w-4xl mx-auto">
