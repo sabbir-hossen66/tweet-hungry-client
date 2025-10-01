@@ -1,30 +1,8 @@
-import React from "react";
-import {
-  Facebook,
-  Linkedin,
-  Twitter,
-  Instagram,
-  MapPin,
-  Mail,
-  Phone,
-} from "lucide-react";
-import { footerLinks } from "@/lib/Data";
+"use client";
+import { contactInfo, footerLinks, socialLinks } from "@/lib/Data";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-  ];
-
-  const contactInfo = [
-    { icon: MapPin, text: "1 East Street, London, SE11 9SQ" },
-    { icon: Mail, text: "enquiries@londonplus.com" },
-    { icon: Phone, text: "020 4327 4474" },
-  ];
 
   return (
     <footer className="w-full bg-white">

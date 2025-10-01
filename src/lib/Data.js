@@ -1,3 +1,12 @@
+import {
+  Facebook,
+  Linkedin,
+  Twitter,
+  Instagram,
+  MapPin,
+  Mail,
+  Phone,
+} from "lucide-react";
 export const faqData = [
     {
       question: "Do plumbers deal with heating?",
@@ -42,3 +51,16 @@ export const faqData = [
       { name: "Sitemap", href: "#" },
     ],
   };
+
+  export  const socialLinks = [
+    { icon: Facebook, href: "#", label: "Facebook" },
+    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Instagram, href: "#", label: "Instagram" },
+  ];
+
+  export const contactInfo = [
+    { icon: MapPin, text: "1 East Street, London, SE11 9SQ" },
+    { icon: Mail, text: "enquiries@londonplus.com" },
+    { icon: Phone, text: "020 4327 4474" },
+  ];
