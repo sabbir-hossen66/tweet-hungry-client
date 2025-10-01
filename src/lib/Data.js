@@ -20,3 +20,25 @@ export const faqData = [
         "Immediately turn off the main water supply and contact our emergency helpline for immediate assistance.",
     },
   ];
+
+
+  export   const footerLinks = {
+    ourServices: [
+      { name: "Plumbing", href: "#" },
+      { name: "Drainage", href: "#" },
+      { name: "Bathrooms", href: "#" },
+      { name: "Commercial", href: "#" },
+    ],
+    usefulLinks: [
+      { name: "Contact Us", href: "#" },
+      { name: "Updates", href: "#" },
+      { name: "About Us", href: "#" },
+      { name: "Rates", href: "#" },
+    ],
+    quickLinks: [
+      { name: "Customer Services", href: "#" },
+      { name: "Updates", href: "#" },
+      { name: "Locations", href: "#" },
+      { name: "Sitemap", href: "#" },
+    ],
+  };
